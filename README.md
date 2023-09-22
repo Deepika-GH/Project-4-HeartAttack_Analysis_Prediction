@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Purpose of the Analysis](#purpose-of-the-analysis)
+  - [Introduction](#introduction)
   - [Requirements](#requirements)
   - [Data Source](#data-source)
   - [Technologies and Libraries](#technologies-and-libraries)
@@ -25,9 +25,9 @@
 
 # Overview
 
-## Purpose of the Analysis:
+## Introduction:
 
-The purpose of this analysis is to create a machine learning model that can predict whether an individual will have the propensity for heart attacks, based on various features provided in the dataset. This analysis involves preprocessing the data, including handling categorical variables, scaling the features, and then training and evaluating a deep learning model (a neural network) to make these predictions. The goal is to develop a predictive model that can help identify individuals that are likely to have heart attacks, which can be valuable to the individual and their families.
+This project serves a dual purpose: firstly, it aims to construct a proficient machine learning model capable of forecasting an individual's susceptibility to heart attacks. Secondly, it seeks to design a user-friendly interface that empowers users to self-assess their risk of experiencing a heart attack. This multifaceted analysis encompasses intricate data preprocessing tasks such as managing categorical variables and feature scaling, followed by the training and evaluation of a deep learning model, specifically a neural network, for these predictive tasks. The ultimate objective is to craft a predictive model that can effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.
 
 ## Requirements:
 
