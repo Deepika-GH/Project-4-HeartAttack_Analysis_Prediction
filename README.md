@@ -17,9 +17,10 @@
   - [Random Forest Model](#random-forest-model)
   - [Classification Model](#classification-model)
   - [Neural Network Model](#neural-network-model)
-- [Website](#website)
+- [User Interface](#user-interface)
 - [Overall Results](#overall-results)
 - [Conclusion](#conclusion)
+- [Difficulties](#difficulties)
 - [Recommendations](#recommendations)
 
 # Overview
@@ -55,12 +56,14 @@ The purpose of this analysis is to create a machine learning model that can pred
 
 ## Neural Network Model
 
-## Website
+# User Interface
 
 
-## Overall Results:
+# Overall Results
 
 ## Conclusion:
+
+## Difficulties
 
 ## Recommendations:
 
