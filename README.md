@@ -1,5 +1,8 @@
 # Heart Attack Prediction Modelling
 
+![header image](https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn)
+
+
 **Authors: Deepika Pitchikala, Leif Munroe, Dhawanpreet Dhaliwal, Huma Alam, Ron Briggs**
 
 ## Table of Contents
