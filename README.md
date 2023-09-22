@@ -34,8 +34,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Data Source:
 
-[Kaggle]([https://www.google.com](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2))
-
+[Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
 ## Technologies and Libraries:
 
