@@ -13,7 +13,7 @@
   - [ETL](#etl)
 - [Modelling](#modelling)
   - [Principal Component Analysis](#principal-component-analysis)
-  - [Linear Regression Model and Optimization](#linear-regression-model-and-optimization)
+  - [Logical Regression Model and Optimization](#logical-regression-model-and-optimization)
   - [Random Forest Model](#random-forest-model)
   - [Confusion Matrix](#confusion-matrix)
   - [Neural Network Model](#neural-network-model)
@@ -49,7 +49,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Principal Component Analysis
 
-## Linear Regression Model and Optimization
+## Logical Regression Model and Optimization
 
 ## Random Forest Model
 
