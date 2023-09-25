@@ -48,7 +48,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 ## Principal Component Analysis
 ### Ron Briggs
 
-## Logical Regression Model and Optimization
+## Logical Regression
 ### Dhawanpreet Dhaliwal
 
 ## Random Forest Model
