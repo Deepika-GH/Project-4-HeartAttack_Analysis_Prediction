@@ -38,7 +38,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 [Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
-![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.pdf)
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.png)
 
 ## Technologies and Libraries:
 
