@@ -42,37 +42,37 @@ Dataset Description
 
 | Variable | Description                                     | Values                                                |
 |----------|-------------------------------------------------|-------------------------------------------------------|
-| age      | patient age                                     | - 1 = male                                           |
-| sex      | patient sex                                     | - 0 = female                                         |
-| cp       | chest pain type                                | - 0: typical angina                                  |
-|          |                                                 | - 1: atypical angina                                 |
-|          |                                                 | - 2: non-anginal pain                               |
-|          |                                                 | - 3: asymptomatic                                   |
-| trtbps   | resting blood pressure (in mm Hg)              | - 1 = true                                           |
-| chol     | cholesterol in mg/dl                           | - 0 = normal                                         |
-| rest_ecg | resting electrocardiographic results            | - 0 = normal                                         |
-|          |                                                 | - 1 = having ST-T wave abnormality                  |
-|          |                                                 | - 2 = showing probable or definite left ventricular |
+| age      | patient age                                     | 1 = male                                           |
+| sex      | patient sex                                     | 0 = female                                         |
+| cp       | chest pain type                                | 0: typical angina                                  |
+|          |                                                 | 1: atypical angina                                 |
+|          |                                                 | 2: non-anginal pain                               |
+|          |                                                 | 3: asymptomatic                                   |
+| trtbps   | resting blood pressure (in mm Hg)              | 1 = true                                           |
+| chol     | cholesterol in mg/dl                           | 0 = normal                                         |
+| rest_ecg | resting electrocardiographic results            | 0 = normal                                         |
+|          |                                                 | 1 = having ST-T wave abnormality                  |
+|          |                                                 | 2 = showing probable or definite left ventricular |
 |          |                                                 |     hypertrophy by Estes' criteria                |
-|          |                                                 | - 3 = reversable defect                             |
-| thalach  | maximum heart rate achieved                    | - 1 = yes                                            |
-| old peak | ST depression induced by exercise relative to  | - 0 = no                                             |
+|          |                                                 | 3 = reversable defect                             |
+| thalach  | maximum heart rate achieved                    | 1 = yes                                            |
+| old peak | ST depression induced by exercise relative to  | 0 = no                                             |
 |          | rest                                            |                                                     |
-| slp      | slope of the peak exercise ST segment          | - 0 = unsloping                                      |
-|          |                                                 | - 1 = flat                                          |
-|          |                                                 | - 2 = downsloping                                   |
-| caa      | number of major vessels (0-3)                  | - 0: < 50% diameter narrowing. less chance of       |
+| slp      | slope of the peak exercise ST segment          | 0 = unsloping                                      |
+|          |                                                 | 1 = flat                                          |
+|          |                                                 | 2 = downsloping                                   |
+| caa      | number of major vessels (0-3)                  | 0: < 50% diameter narrowing. less chance of       |
 |          |                                                 |      heart disease                                  |
-|          |                                                 | - 1: > 50% diameter narrowing. more chance of       |
+|          |                                                 | 1: > 50% diameter narrowing. more chance of       |
 |          |                                                 |      heart disease                                  |
-|          |                                                 | - 2 = normal                                        |
-| thall    | thalassemia                                    | - 0 = null                                          |
-|          |                                                 | - 1 = fixed defect                                  |
-|          |                                                 | - 2 = normal                                        |
-|          |                                                 | - 3 = reversable defect                             |
-| output   | diagnosis of heart disease (angiographic        | - 0: < 50% diameter narrowing. less chance of       |
+|          |                                                 | 2 = normal                                        |
+| thall    | thalassemia                                    | - = null                                          |
+|          |                                                 | 1 = fixed defect                                  |
+|          |                                                 | 2 = normal                                        |
+|          |                                                 | 3 = reversable defect                             |
+| output   | diagnosis of heart disease (angiographic        | 0: < 50% diameter narrowing. less chance of       |
 |          | disease status)                                |      heart disease                                  |
-|          |                                                 | - 1: > 50% diameter narrowing. more chance of       |
+|          |                                                 | 1: > 50% diameter narrowing. more chance of       |
 |          |                                                 |      heart disease                                  |
 
 
