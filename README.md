@@ -13,18 +13,17 @@
   - [Data Source](#data-source)
   - [Technologies and Libraries](#technologies-and-libraries)
   - [Workflow Diagram](#workflow-diagram)
-  - [ETL](#etl)
 - [Modelling](#modelling)
   - [Principal Component Analysis](#principal-component-analysis)
   - [Logical Regression Model and Optimization](#logical-regression-model-and-optimization)
   - [Random Forest Model](#random-forest-model)
-  - [Confusion Matrix](#confusion-matrix)
+  - [Logistic Regression](#Logistic-Regression)
   - [Neural Network Model](#neural-network-model)
-- [User Interface](#user-interface)
-- [Overall Results](#overall-results)
-- [Conclusion](#conclusion)
+- [Test Case](#test-case)
+- [Results](#results)
 - [Difficulties](#difficulties)
-- [Recommendations](#recommendations)
+- [Future Considerations](#Future-Considerations)
+- [Conclusion](#conclusion)
 
 # Overview
 
@@ -44,10 +43,6 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Workflow Diagram:
 
-
-## ETL
-
-
 # Modelling
 
 ## Principal Component Analysis
@@ -56,19 +51,16 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Random Forest Model
 
-## Confusion Matrix
+## Logistic Regression
 
 ## Neural Network Model
 
-# User Interface
+## Test Case
 
-
-# Overall Results
+## Results
 
 ## Conclusion:
 
-## Difficulties
-
-## Recommendations:
+## Future Considerations:
 
 
