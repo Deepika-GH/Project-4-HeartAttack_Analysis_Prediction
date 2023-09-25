@@ -55,8 +55,6 @@ Dataset Description
 |          |                                                 | - 2 = showing probable or definite left ventricular |
 |          |                                                 |     hypertrophy by Estes' criteria                |
 |          |                                                 | - 3 = reversable defect                             |
-| Variable | Description                                     | Values                                                |
-|----------|-------------------------------------------------|-------------------------------------------------------|
 | thalach  | maximum heart rate achieved                    | - 1 = yes                                            |
 | old peak | ST depression induced by exercise relative to  | - 0 = no                                             |
 |          | rest                                            |                                                     |
