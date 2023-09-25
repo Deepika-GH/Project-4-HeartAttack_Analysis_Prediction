@@ -15,12 +15,12 @@
   - [Workflow Diagram](#workflow-diagram)
 - [Modelling](#modelling)
   - [Principal Component Analysis](#principal-component-analysis)
-  - [Logical Regression Model and Optimization](#logical-regression-model-and-optimization)
+  - [SVC Linear Testing](#SVC-linear-testing)
   - [Random Forest Model](#random-forest-model)
   - [Logistic Regression](#Logistic-Regression)
   - [Neural Network Model](#neural-network-model)
 - [Test Case](#test-case)
-- [Results](#results)
+- [Results and Visualizations](#Results-and-Visualizations)
 - [Difficulties](#difficulties)
 - [Future Considerations](#Future-Considerations)
 - [Conclusion](#conclusion)
@@ -46,18 +46,24 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 # Modelling
 
 ## Principal Component Analysis
+### Ron Briggs
 
 ## Logical Regression Model and Optimization
+### Dhawanpreet Dhaliwal
 
 ## Random Forest Model
+### Leif Munroe
 
-## Logistic Regression
+## SVC Linear Testing
+### Huma Alam
 
 ## Neural Network Model
+Deepika Pitchikala
+
 
 ## Test Case
 
-## Results
+## Results and Visualizations
 
 ## Conclusion:
 
