@@ -66,7 +66,7 @@ Dataset Description
 |          |                                                 | 1: > 50% diameter narrowing. more chance of       |
 |          |                                                 |      heart disease                                  |
 |          |                                                 | 2 = normal                                        |
-| thall    | thalassemia                                    | - = null                                          |
+| thall    | thalassemia                                    | 0 = null                                          |
 |          |                                                 | 1 = fixed defect                                  |
 |          |                                                 | 2 = normal                                        |
 |          |                                                 | 3 = reversable defect                             |
