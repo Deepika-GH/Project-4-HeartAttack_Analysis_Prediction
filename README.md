@@ -2,7 +2,6 @@
 
 ![header image](https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn)
 
-
 **Authors: Deepika Pitchikala, Leif Munroe, Dhawanpreet Dhaliwal, Huma Alam, Ron Briggs**
 
 ## Table of Contents
@@ -36,8 +35,9 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Data Source:
 
-[Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
+[Kaggle: Heart Attack Analysis Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
+Dataset Description
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.png)
 
 ## Technologies and Libraries:
@@ -67,8 +67,10 @@ Deepika Pitchikala
 
 ## Results and Visualizations
 
+## Future Considerations:
+
 ## Conclusion:
 
-## Future Considerations:
+
 
 
