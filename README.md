@@ -32,7 +32,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Requirements:
 - Use at least 2 of the following: Pandas ✅, Python✅, Matplotlib, SQL ✅, HTML/ CSS/ Bootstrap, Plotly, Leaflet, Tableau, MongoDB, Google Cloud SQL, AmazonAWS
-- Use ScikitLearn and or another machine learning library ex: TensorFlow ✅ (Deepika)
+- Use ScikitLearn and or another machine learning library ex: TensorFlow ✅
 - The model demonstrates meaningful predictive power at least 75% classification accuracy ✅ or 0.80 R-squared (R squared/ metrics does not apply to our data)
 - Optimize predictive power results ✅
 - Minimum 100 rows of Data  - our dataset has 300 records ✅
