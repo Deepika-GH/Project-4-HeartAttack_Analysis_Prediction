@@ -70,7 +70,7 @@ Dataset Description
 ### Huma Alam
 
 ## Neural Network Model
-### Members code/dp_nn_model.ipynb
+### source_code.ipynb
 
 
 ## Test Case
