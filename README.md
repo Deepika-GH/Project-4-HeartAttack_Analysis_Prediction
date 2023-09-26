@@ -1,6 +1,6 @@
 # Heart Attack Prediction Modelling
 
-![header image](https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn)
+![header image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/heart%20title75.jpg)
 
 **Authors: Deepika Pitchikala, Leif Munroe, Dhawanpreet Dhaliwal, Huma Alam, Ron Briggs**
 
@@ -32,7 +32,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Requirements:
 - Use at least 2 of the following: Pandas ✅, Python✅, Matplotlib, SQL ✅, HTML/ CSS/ Bootstrap, Plotly, Leaflet, Tableau, MongoDB, Google Cloud SQL, AmazonAWS
-- Use ScikitLearn and or another machine learning library ex: TensorFlow ✅ (Deepika)
+- Use ScikitLearn and or another machine learning library ex: TensorFlow ✅
 - The model demonstrates meaningful predictive power at least 75% classification accuracy ✅ or 0.80 R-squared (R squared/ metrics does not apply to our data)
 - Optimize predictive power results ✅
 - Minimum 100 rows of Data  - our dataset has 300 records ✅
@@ -40,7 +40,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 
 ## Data Source:
 
-[Kaggle: Heart Attack Analysis Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
+[Kaggle: Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
 Dataset Description
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.png)
@@ -54,6 +54,7 @@ Dataset Description
 - pickle, joblib
 
 ## Workflow Diagram:
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Workflow%20Diagram.png)
 
 # Modelling
 
