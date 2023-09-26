@@ -71,7 +71,7 @@ Dataset Description
 ### Huma Alam
 
 ## Neural Network Model
-### source_code.ipynb
+### Deepika Pitchikala
 
 
 ## Test Case
