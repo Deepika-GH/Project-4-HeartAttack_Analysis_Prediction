@@ -70,7 +70,7 @@ Dataset Description
 ### Huma Alam
 
 ## Neural Network Model
-### Deepika Pitchikala
+### Members code/dp_nn_model.ipynb
 
 
 ## Test Case
