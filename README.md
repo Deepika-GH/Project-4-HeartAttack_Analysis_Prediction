@@ -49,7 +49,7 @@ Dataset Description
 - pandas, pathlib, matplotlib, numpy, flask, sqlite3, 
 - sklearn
   - KMeans, PCA, StandardScalar, train_test_split, RandomForestClassifier
-	- balanced_accuracy_score, confusion_matrix, classification_report, make_blobs
+  - balanced_accuracy_score, confusion_matrix, classification_report, make_blobs
 - tensorflow, keras_tuner
 - pickle, joblib
 
