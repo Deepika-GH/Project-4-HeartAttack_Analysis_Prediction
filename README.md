@@ -31,7 +31,12 @@
 This project serves a dual purpose: firstly, it aims to construct a proficient machine learning model capable of forecasting an individual's susceptibility to heart attacks. Secondly, it seeks to design a user-friendly interface that empowers users to self-assess their risk of experiencing a heart attack. This multifaceted analysis encompasses intricate data preprocessing tasks such as managing categorical variables and feature scaling, followed by the training and evaluation of a deep learning model, specifically a neural network, for these predictive tasks. The ultimate objective is to craft a predictive model that can effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.
 
 ## Requirements:
-
+- Use at least 2 of the following: Pandas ✅, Python✅, Matplotlib, SQL ✅, HTML/ CSS/ Bootstrap, Plotly, Leaflet, Tableau, MongoDB, Google Cloud SQL, AmazonAWS
+- Use ScikitLearn and or another machine learning library ex: TensorFlow ✅ (Deepika)
+- The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared (R squared/ metrics does not apply to our data)
+- Optimize predictive power results
+- Minimum 100 rows of Data  - our dataset has 300 records ✅
+- The model utilizes data retrieved from SQL or Spark - used SQLite ✅
 
 ## Data Source:
 
