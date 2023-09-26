@@ -46,7 +46,12 @@ Dataset Description
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.png)
 
 ## Technologies and Libraries:
-
+- pandas, pathlib, matplotlib, numpy, flask, sqlite3, 
+- sklearn
+  - KMeans, PCA, StandardScalar, train_test_split, RandomForestClassifier
+	- balanced_accuracy_score, confusion_matrix, classification_report, make_blobs
+- tensorflow, keras_tuner
+- pickle, joblib
 
 ## Workflow Diagram:
 
