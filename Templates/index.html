@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
 }
+
 </style>
 </head>
 <body>
@@ -18,12 +19,12 @@ h1, h2, h3, h4, h5, h6 {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Are you at risk of a Heart Attack?</a>
+    <a href="#home" class="w3-bar-item w3-button">Who is at risk of a Heart Attack?</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Model</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contributors</a>
+      <a href="#menu" class="w3-bar-item w3-button">Model Predictions</a>
+      <a href="#about" class="w3-bar-item w3-button">About the Model</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contributing Authors</a>
     </div>
   </div>
 </div>
@@ -31,29 +32,13 @@ h1, h2, h3, h4, h5, h6 {
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Modeling Heart Attack features</h1>
+  <div class="w3-display-topright w3-padding-large w3-opacity" style="margin-top: 150px;">
+    <h1 class="w3-xxlarge" style="color:white;">Modeling Heart Attacks</h1>
   </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
-
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
-    </div>
-
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About our Heart Attack Model</h1><br>
-      <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
-      <p class="w3-large">This is a model that predicts patients likelyhood of experiencing a hearth attack. in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-  
-  <hr>
   
   <!-- Model Section -->
   <div class="w3-row w3-padding-64" id="menu">
@@ -62,27 +47,59 @@ h1, h2, h3, h4, h5, h6 {
   
       <h4>How accurate is our model?</h4>
       		<p class="w3-text-grey">Choose a scenario to see the prediction based on our model</p>
-            <p <div class="w3-dropdown-hover">
+        <div class="w3-dropdown-hover">
           <button class="w3-button w3-black">Choose a use case:</button>
           <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#" class="w3-bar-item w3-button">Case 1</a>
-            <a href="#" class="w3-bar-item w3-button">Case 2</a>
-            <a href="#" class="w3-bar-item w3-button">Case 3</a>
+            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case1')">Case 1</a>
+            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case2')">Case 2</a>
+            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case3')">Case 3</a>
+            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case4')">Case 4</a>
           </div>
-        </div></p><br>
+        </div>
+        <br>
+
+        <!--Content for case 1-->
+        <div id="case1" class="case-content">
+            <h2>Case 1</h2>
+            <p>This is the co-co-co-content for Case 1!</p>
+            <img src="/Visuals/distribution_plot.svg" alt="Case 1" width="600" height="400"/>
+        </div>
+
+        <!--Content for case 2-->
+        <div id="case2" class="case-content">
+            <h2>Case 2</h2>
+            <p>This is the content for Case 2.</p>
+            <img src="../Visuals/composite_plot.png" class="w3-round w3-image w3-opacity-min" alt="Case 2" style="width:100%">
+        </div>
     
     <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Remove this?" style="width:100%">
     </div>
   </div>
 
   <hr>
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img class="w3-round w3-image w3-opacity-min" src="binary_countplot.svg" alt="Analytics_image"/>
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">About our Heart Attack Model</h1><br>
+        <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+        <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+        <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+        </div>
+    </div>
+    
+    <hr>
+
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contributors</h1><br>
-    <p>We are a group made up of:</p>
-    <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala, Dhawanpreet Dhaliwal, Huma Alima, Leif Munroe, Ron Briggs</b></p>
+    <h1>Contributing Authors</h1><br>
+    <p>This projected was authored by:</p>
+    <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
   </div>
   
 <!-- End page content -->
@@ -92,6 +109,31 @@ h1, h2, h3, h4, h5, h6 {
 <footer class="w3-center w3-light-grey w3-padding-32">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
+
+<script>
+    // Function to hide all content divs
+    function hideAllCases() {
+        var cases = document.querySelectorAll('.case-content');
+        for (var i = 0; i < cases.length; i++) {
+            cases[i].style.display = 'none';
+        }
+    }
+
+    // Function to show selected content div
+    function showCase(caseId) {
+        // Hide all content divs
+        hideAllCases();
+
+        // Show the selected content div
+        document.getElementById(caseId).style.display = 'block';
+    }
+
+    // Initially, hide all content divs
+    window.onload = function() {
+        hideAllCases();
+    };
+</script>
+
 
 </body>
 </html>
