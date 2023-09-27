@@ -43,7 +43,7 @@ This project serves a dual purpose: firstly, it aims to construct a proficient m
 [Kaggle: Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
 Dataset Description
-![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Dataset%20Description.png)
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/png%20plots%20and%20images/Dataset%20Description.png?raw=true)
 
 ## Technologies and Libraries:
 - pandas, pathlib, matplotlib, numpy, flask, sqlite3, 
@@ -54,7 +54,7 @@ Dataset Description
 - pickle, joblib
 
 ## Workflow Diagram:
-![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/Workflow%20Diagram.png)
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/png%20plots%20and%20images/Workflow%20Diagram.png?raw=true)
 
 # Modelling
 
