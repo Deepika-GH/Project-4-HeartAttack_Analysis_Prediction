@@ -1,6 +1,6 @@
 # Heart Attack Prediction Modelling
 
-![header image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/heart%20title75.jpg)
+![header image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/heart_title_header.jpg?raw=true)
 
 **Authors: Deepika Pitchikala, Leif Munroe, Dhawanpreet Dhaliwal, Huma Alam, Ron Briggs**
 
