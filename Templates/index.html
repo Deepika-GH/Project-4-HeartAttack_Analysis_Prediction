@@ -24,14 +24,13 @@ h1, h2, h3, h4, h5, h6 {
     <div class="w3-right w3-hide-small">
       <a href="#menu" class="w3-bar-item w3-button">Model Predictions</a>
       <a href="#about" class="w3-bar-item w3-button">About the Model</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contributing Authors</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="https://raw.githubusercontent.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/main/Visuals/heart_title_header.jpg" alt="Hamburger Catering" width="1600" height="800">
   <div class="w3-display-topright w3-padding-large w3-opacity" style="margin-top: 150px;">
     <h1 class="w3-xxlarge" style="color:white;">Modeling Heart Attacks</h1>
   </div>
@@ -39,7 +38,43 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
-  
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+    <img src="../static/composite_plot.png">  
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">About our Heart Attack Model</h1><br>
+    <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+    <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+    <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+    </div>
+</div>
+<hr>
+ <!-- Contact Section -->
+ <div class="w3-container w3-padding-64" id="contact">
+  <h1>Contributing Authors</h1><br>
+  <p>This projected was authored by:</p>
+  <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
+</div>
+<hr>
+<!-- About Section -->
+<div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+  <img src="../static/composite_plot.png">  
+</div>
+
+  <div class="w3-col m6 w3-padding-large">
+  <h1 class="w3-center">About our Heart Attack Model</h1><br>
+  <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+  <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+  <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+  </div>
+</div>
+
   <!-- Model Section -->
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
@@ -61,38 +96,24 @@ h1, h2, h3, h4, h5, h6 {
         <!--Content for case 1-->
         <div id="case1" class="case-content">
             <h2>Case 1</h2>
-            <p>This is the co-co-co-content for Case 1!</p>
-            <img src="/Visuals/distribution_plot.svg" alt="Case 1" width="600" height="400"/>
+            <p>True Negative</p>
+            <img src="../static/true_negative_case.png" alt="Case 1" width="600" height="400"/>
         </div>
 
         <!--Content for case 2-->
         <div id="case2" class="case-content">
             <h2>Case 2</h2>
             <p>This is the content for Case 2.</p>
-            <img src="../Visuals/composite_plot.png" class="w3-round w3-image w3-opacity-min" alt="Case 2" style="width:100%">
+            <img src="Visuals/composite_plot.png" alt="Case 2" style="width:100%">
         </div>
     
     <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Remove this?" style="width:100%">
+      <img  class="w3-round w3-image" src="corr_matrix.png" alt="Remove this?" width="1600" height="800"/>
     </div>
   </div>
 
   <hr>
-    <!-- About Section -->
-    <div class="w3-row w3-padding-64" id="about">
-        <div class="w3-col m6 w3-padding-large w3-hide-small">
-        <img class="w3-round w3-image w3-opacity-min" src="binary_countplot.svg" alt="Analytics_image"/>
-        </div>
-
-        <div class="w3-col m6 w3-padding-large">
-        <h1 class="w3-center">About our Heart Attack Model</h1><br>
-        <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
-        <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
-        <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
-        </div>
-    </div>
     
-    <hr>
 
 
   <!-- Contact Section -->
@@ -102,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
   </div>
   
+
 <!-- End page content -->
 </div>
 
