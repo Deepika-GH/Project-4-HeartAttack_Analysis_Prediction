@@ -68,7 +68,7 @@ Dataset Description
 **Process**
 1. Normalize the data
 2. Find the Best Value for k Using the Original Data
-  - Plot Elbow Curve  
+- Plot Elbow Curve  
 3. Cluster with K-means Using the Original Data (n_clusters=2)
   - Create Scatterplot
 4. Optimize Clusters with Principal Component Analysis
