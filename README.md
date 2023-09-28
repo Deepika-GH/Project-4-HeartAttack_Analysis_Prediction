@@ -64,6 +64,7 @@ Dataset Description
 ### Ron Briggs
 
 **Overview**
+PCA is a dimensionality reduction technique used to transform high-dimensional data into a lower-dimensional representation while preserving the most important information in the data.
 
 **Process**
 1. Normalize the data
