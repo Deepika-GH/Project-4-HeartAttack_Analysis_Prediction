@@ -28,7 +28,7 @@
 
 ## Introduction:
 
-This project serves a dual purpose: firstly, it aims to construct five different machine learning models capable of forecasting an individual's susceptibility to heart attacks and then choose the best model. Secondly, it seeks to design a user-friendly interface that empowers users to four unique test cases. 
+This project serves a dual purpose: firstly, it aims to construct five different machine learning models capable of forecasting an individual's susceptibility to heart attacks and then choose the best model. Secondly, it seeks to design a user-friendly interface that empowers users to four test cases based on the confusion matrix. 
 
 This multifaceted analysis encompasses intricate data preprocessing tasks such as managing categorical variables and feature scaling, followed by the training and evaluation of a deep learning model for these predictive tasks. The ultimate objective is to craft a predictive model that can effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.
 
