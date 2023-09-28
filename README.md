@@ -28,7 +28,7 @@
 
 ## Introduction:
 
-This project serves a dual purpose: firstly, it aims to construct five different machine learning models capable of forecasting an individual's susceptibility to heart attacks and then choose the best model. Secondly, it seeks to design a user-friendly interface that empowers users to self-assess their risk of experiencing a heart attack. 
+This project serves a dual purpose: firstly, it aims to construct five different machine learning models capable of forecasting an individual's susceptibility to heart attacks and then choose the best model. Secondly, it seeks to design a user-friendly interface that empowers users to four unique test cases. 
 
 This multifaceted analysis encompasses intricate data preprocessing tasks such as managing categorical variables and feature scaling, followed by the training and evaluation of a deep learning model for these predictive tasks. The ultimate objective is to craft a predictive model that can effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.
 
@@ -67,19 +67,12 @@ Dataset Description
 
 **Process**
 1. Normalize the data
-2. Find the Best Value for k Using the Original Data
-- Plot Elbow Curve  
-3. Cluster with K-means Using the Original Data (n_clusters=2)
-  - Create Scatterplot
-4. Optimize Clusters with Principal Component Analysis
-  - Calculate the total explained variance
-5. Find the Best Value for k Using the PCA Data
-  - Plot Elbow Curve
-6. Cluster Data with K-means Using the PCA Data
-  - Create Scatterplot
-7. Visualize and Compare Results
-  - Create Plot (k vs inertia)
-  - Create Composite Plot Complare the clusters of the original data and the PCA data
+2. Find the Best Value for k Using the Original Data | Plot Elbow Curve  
+3. Cluster with K-means Using the Original Data (n_clusters=2) - Create Scatterplot
+4. Optimize Clusters with Principal Component Analysis - Calculate the total explained variance
+5. Find the Best Value for k Using the PCA Data - Plot Elbow Curve
+6. Cluster Data with K-means Using the PCA Data - Create Scatterplot
+7. Visualize and Compare Results - Create Plot (k vs inertia) - Create Composite Plot Complare the clusters of the original data and the PCA data
 
 ## Logical Regression
 ### Dhawanpreet Dhaliwal
