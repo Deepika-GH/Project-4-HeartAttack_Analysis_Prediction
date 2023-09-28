@@ -56,7 +56,7 @@ Dataset Description
 - pickle, joblib
 
 ## Workflow Diagram:
-![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/png%20plots%20and%20images/Workflow%20Diagram.png?raw=true)
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Workflow%20Diagram.png?raw=true)
 
 # Modelling
 
