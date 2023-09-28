@@ -38,20 +38,30 @@ h1, h2, h3, h4, h5, h6 {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">Data Features</a>
       <a href="#menu" class="w3-bar-item w3-button">Model Predictions</a>
+<<<<<<< HEAD
       <a href="#contact" class="w3-bar-item w3-button">Contributing Authors</a>
+=======
+      <a href="#about" class="w3-bar-item w3-button">About the Model</a>
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
     </div>
   </div>
 </div>
 
 <!-- Header -->
+<<<<<<< HEAD
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px; background-color: blue;" id="home">
   <img class="w3-image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/raw/main/Visuals/heart_title_header.jpg?raw=true" alt="Heart Image" width="2000">
+=======
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://raw.githubusercontent.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/main/Visuals/heart_title_header.jpg" alt="Hamburger Catering" width="1600" height="800">
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
   <div class="w3-display-topright w3-padding-large w3-opacity" style="margin-top: 150px;">
     <h1 class="w3-xxlarge" style="color:white;">Modeling Heart Attacks</h1>
   </div>
 </header>
 
 <!-- Page content -->
+<<<<<<< HEAD
 <div class="w3-content" style="max-width:1500px">
     <!-- About Section -->
       <div class="w3-row w3-padding-64" id="about" style="background-color: #93a3b6;">
@@ -229,6 +239,92 @@ h1, h2, h3, h4, h5, h6 {
         <p>This shows us how many individuals were flasely predicted by the model that they are at risk of a heart attack. The model incorrectly predicts the positive case 6 times. This would mean an individual would be predicted as high risk of an heart attack but in reality they are low risk.</p>
         <img src="../static/false_positive_case.png" alt="Case 4: False Positive" style="width:100%" />
       </div>
+=======
+<div class="w3-content" style="max-width:1100px">
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+    <img src="../static/composite_plot.png">  
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">About our Heart Attack Model</h1><br>
+    <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+    <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+    <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+    </div>
+</div>
+<hr>
+ <!-- Contact Section -->
+ <div class="w3-container w3-padding-64" id="contact">
+  <h1>Contributing Authors</h1><br>
+  <p>This projected was authored by:</p>
+  <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
+</div>
+<hr>
+<!-- About Section -->
+<div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+  <img src="../static/composite_plot.png">  
+</div>
+
+  <div class="w3-col m6 w3-padding-large">
+  <h1 class="w3-center">About our Heart Attack Model</h1><br>
+  <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+  <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+  <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+  </div>
+</div>
+
+  <!-- Model Section -->
+<div class="w3-row w3-padding-64" id="menu">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center">Model Predictions</h1><br>
+
+ <h4>How accurate is our model?</h4>
+    <p class="w3-text-grey">Choose a scenario to see the prediction based on our model</p>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black">Choose a use case:</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case1')">Case 1</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case2')">Case 2</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case3')">Case 3</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case4')">Case 4</a>
+      </div>
+    </div>
+    <br>
+
+    <!-- Content for case 1 -->
+    <div id="case1" class="case-content">
+      <h2>Case 1: True Negative</h2>
+      <p>This shows us how many individuals are unlikely to 
+        have a heart attack. Below are the results were correctly predicted by the model. The model was able to predict 29 out of 35 negative, not likely to suffer from a heart attack prediction.</p>
+      <img src="../static/true_negative_case.png" width="600" height="400" />
+    </div>
+
+    <!-- Content for case 2 -->
+    <div id="case2" class="case-content">
+      <h2>Case 2: True Positive</h2>
+      <p>This shows us how many individuals are likely to 
+        have a heart attack. These results below show how many were correctly predicted by the model. The model was able to predict 36 out of 40 positive, likely to suffer from a heart attack prediction.</p>
+      <img src="../static/true_positive_case.png" alt="Case 2: True Positive" style="width:100%" />
+    </div>
+
+    <!-- Content for case 3 -->
+    <div id="case3" class="case-content">
+      <h2>Case 3: False Negative</h2>
+      <p>This shows us how many individuals were flasely predicted by the model that they are not at risk of a heart attack. The model incorrectly predicts the negative case 4 times. This would mean an individual would be predicted as low risk of an hear attack but in reality they are high risk. </p>
+      <img src="../static/false_negative_case.png" alt="Case 3: False Negative" width="600" height="400" />
+    </div>
+
+    <!-- Content for case 4 -->
+    <div id="case4" class="case-content">
+      <h2>Case 4: False Positive</h2>
+      <p>This shows us how many individuals were flasely predicted by the model that they are at risk of a heart attack. The model incorrectly predicts the positive case 6 times. This would mean an individual would be predicted as high risk of an heart attack but in reality they are low risk.</p>
+      <img src="../static/false_positive_case.png" alt="Case 4: False Positive" style="width:100%" />
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
     </div>
 
 <!--     
@@ -262,7 +358,41 @@ h1, h2, h3, h4, h5, h6 {
     }
   </style>
 
+<<<<<<< HEAD
   <hr>
+=======
+  <div class="w3-col l6 w3-padding-large">
+    <div class="image-container">
+      <img class="w3-round w3-image" src="corr_matrix.png" alt="" width="1600" height="800" />
+    </div>
+    <div class="image-description">
+      <!-- Enter your text here -->
+      <p><!-- Enter your text here --></p>
+      <!-- You can replace the above line with your own text -->
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<style>
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Maintain aspect ratio */
+  }
+
+  .image-description {
+    position: relative;
+    width: 100%;
+    padding: 10px; /* Adjust as needed */
+    text-align: center;
+  }
+</style>
+    
+    
+
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
@@ -271,6 +401,7 @@ h1, h2, h3, h4, h5, h6 {
     <p class="w3-text-blue-grey w3-large"><b>Deepika Pitchikala    -     Dhawanpreet Dhaliwal   -     Huma Alam  -    Leif Munroe - Ron Briggs</b></p>
   </div>
   
+
 <!-- End page content -->
 </div>
 
