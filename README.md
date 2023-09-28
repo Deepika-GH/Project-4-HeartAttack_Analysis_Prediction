@@ -70,9 +70,11 @@ Dataset Description
 2. Find the Best Value for k Using the Original Data | Plot Elbow Curve  
 3. Cluster with K-means Using the Original Data (n_clusters=2) | Create Scatterplot
 4. Optimize Clusters with Principal Component Analysis | Calculate the total explained variance
+- 
 5. Find the Best Value for k Using the PCA Data | Plot Elbow Curve
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/PCA%20visuals/ElbowCurvePCA.png?raw=true)
 6. Cluster Data with K-means Using the PCA Data | Create Scatterplot
-7. Visualize and Compare Results | Create Plot (k vs inertia) | Create Composite Plot Complare the clusters of the original data and the PCA data
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/PCA%20visuals/ClustersPCA.png?raw=true)
 
 ## Logical Regression
 ### Dhawanpreet Dhaliwal
