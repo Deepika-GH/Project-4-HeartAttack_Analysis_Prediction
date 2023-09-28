@@ -5,14 +5,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Lightbox CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<!-- Lightbox JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
+  
 }
-
+.mySlides img {
+            width: 700px;
+            height: 600px;
+}
 </style>
+<script>
+  lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+  });
+</script>
 </head>
 <body>
 
@@ -22,95 +36,390 @@ h1, h2, h3, h4, h5, h6 {
     <a href="#home" class="w3-bar-item w3-button">Who is at risk of a Heart Attack?</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Data Features</a>
       <a href="#menu" class="w3-bar-item w3-button">Model Predictions</a>
-      <a href="#about" class="w3-bar-item w3-button">About the Model</a>
+<<<<<<< HEAD
       <a href="#contact" class="w3-bar-item w3-button">Contributing Authors</a>
+=======
+      <a href="#about" class="w3-bar-item w3-button">About the Model</a>
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
     </div>
   </div>
 </div>
 
 <!-- Header -->
+<<<<<<< HEAD
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px; background-color: blue;" id="home">
+  <img class="w3-image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/raw/main/Visuals/heart_title_header.jpg?raw=true" alt="Heart Image" width="2000">
+=======
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="https://th.bing.com/th/id/OIG.eGvxvsFQ.HmPQV6DOoy5?pid=ImgGn" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="https://raw.githubusercontent.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/main/Visuals/heart_title_header.jpg" alt="Hamburger Catering" width="1600" height="800">
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
   <div class="w3-display-topright w3-padding-large w3-opacity" style="margin-top: 150px;">
     <h1 class="w3-xxlarge" style="color:white;">Modeling Heart Attacks</h1>
   </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-  
+<<<<<<< HEAD
+<div class="w3-content" style="max-width:1500px">
+    <!-- About Section -->
+      <div class="w3-row w3-padding-64" id="about" style="background-color: #93a3b6;">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <div class="w3-row w3-padding-64" id="slideshow">
+            <h2>Features Visualizations</h2>
+            <div class="slideshow-container">
+                <!-- Slide 1 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <h3>Correlation Heatmap</h3>
+                    <!-- <p>Description for the correlation heatmap...</p> -->
+                    <a href="../static/corr_matrix.png" data-lightbox="image1">
+                      <img src="../static/corr_matrix.png" alt="Correlation Heatmap" width="800" height="600">
+                  </a>
+              
+                </div>
+        
+                <!-- Slide 2 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <h3>Binary Count Plot</h3>
+                    <!-- <p>Description for the binary count plot...</p> -->
+                    <a href="../static/binary_countplot.png" data-lightbox="image2">
+                      <img src="../static/binary_countplot.png" alt="Binary Count Plot" width="800" height="600">
+                  </a>
+                </div>
+        
+                <!-- Slide 3 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <h3>Distribution Plot</h3>
+                    <!-- <p>Description for the distribution plot...</p> -->
+                    <a href="../static/Distribution_plot.png" data-lightbox="image3">
+                      <img src="../static/Distribution_plot.png" alt="Distribution Plot" width="800" height="600">
+                  </a>
+                </div>
+        
+                <!-- Next and Previous Buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        </div>
+
+        <div class="w3-col m6 w3-padding-large" style="background-color: #f0f0f0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 30px; min-height: 500px;">
+          <h1 class="w3-center" style="color: #ff4545; font-size: 36px; margin-bottom: 20px; text-transform: uppercase;">Exploring Features used to train the Model</h1>
+          <h5 class="w3-center" style="color: #007aff; font-size: 20px;">Are you at risk of having a heart attack?</h5>
+          <p class="w3-large" style="color: #333;">This is a model that is capable of forecasting an individual's susceptibility to <span class="w3-tag w3-red">Heart Attacks.</span></p>
+          <p class="w3-large w3-text-grey w3-hide-medium" style="color: #555;">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+          <button onclick="openFeatureDescriptions()" class="w3-button w3-red w3-hover-dark-red" style="border: none; padding: 12px 24px; border-radius: 5px; font-size: 18px; cursor: pointer; background-color: #007aff; color: #fff; transition: background-color 0.3s; text-transform: uppercase; letter-spacing: 2px;">Show Features Descriptions</button>
+          <div id="featureDescriptions" style="display: none; padding-top: 20px;">
+              <h2 style="font-size: 28px; color: #007aff; margin-bottom: 10px; text-transform: uppercase;">Features Description</h2>
+              <ul style="list-style-type: square; color: #333; padding-left: 20px;">
+          <h2>Features Description</h2>
+          <ul style="list-style-type: circle; color: #777; padding-left: 20px;"></ul>>
+            <li><strong>Age</strong>: Age of the patient</li>
+            <li><strong>Sex</strong>: Sex of the patient
+                <ul>
+                    <li>1 = male</li>
+                    <li>0 = female</li>
+                </ul>
+            </li>
+            <li><strong>cp</strong>: Chest Pain type
+                <ul>
+                    <li>Value 0: typical angina</li>
+                    <li>Value 1: atypical angina</li>
+                    <li>Value 2: non-anginal pain</li>
+                    <li>Value 3: asymptomatic</li>
+                </ul>
+            </li>
+            <li><strong>trtbps</strong>: Resting blood pressure (in mm Hg)</li>
+            <li><strong>chol</strong>: Cholesterol in mg/dl fetched via BMI sensor</li>
+            <li><strong>fbs</strong>: Fasting blood sugar
+                <ul>
+                    <li>1 = true</li>
+                    <li>0 = false</li>
+                </ul>
+            </li>
+            <li><strong>rest_ecg</strong>: Resting electrocardiographic results
+                <ul>
+                    <li>Value 0: normal</li>
+                    <li>Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)</li>
+                    <li>Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria</li>
+                </ul>
+            </li>
+            <li><strong>thalach</strong>: Maximum heart rate achieved</li>
+            <li><strong>exang</strong>: Exercise-induced angina
+                <ul>
+                    <li>1 = yes</li>
+                    <li>0 = no</li>
+                </ul>
+            </li>
+            <li><strong>old peak</strong>: ST depression induced by exercise relative to rest</li>
+            <li><strong>slp</strong>: The slope of the peak exercise ST segment
+                <ul>
+                    <li>0 = unsloping</li>
+                    <li>1 = flat</li>
+                    <li>2 = downsloping</li>
+                </ul>
+            </li>
+            <li><strong>caa</strong>: Number of major vessels (0-3)</li>
+            <li><strong>thall</strong>: Thalassemia
+                <ul>
+                    <li>0 = null</li>
+                    <li>1 = fixed defect</li>
+                    <li>2 = normal</li>
+                    <li>3 = reversible defect</li>
+                </ul>
+            </li>
+            <li><strong>output</strong>: Diagnosis of heart disease (angiographic disease status)
+                <ul>
+                    <li>0: &lt; 50% diameter narrowing. Less chance of heart disease</li>
+                    <li>1: &gt; 50% diameter narrowing. More chance of heart disease</li>
+                </ul>
+            </li>
+          </ul>
+      </div>
+        </div>
+  </div>
+    
+    <hr>
   <!-- Model Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Model Predictions</h1><br>
+  <div class="w3-row w3-padding-64" id="menu" style="background-color: #babec6;">
   
-      <h4>How accurate is our model?</h4>
-      		<p class="w3-text-grey">Choose a scenario to see the prediction based on our model</p>
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-right" style="text-align: right; ; font-weight: bold;">Model Predictions</h1><br>
+  
+      <h4 style="color: #18191a; font-size: 20px;; font-weight: bold;">How accurate is our model?</h4>
+      		<p class="w3-text-black" style="font-size: 24px;">Choose a scenario to see the prediction based on our model</p>
         <div class="w3-dropdown-hover">
           <button class="w3-button w3-black">Choose a use case:</button>
           <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case1')">Case 1</a>
-            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case2')">Case 2</a>
-            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case3')">Case 3</a>
-            <a href="#" class="w3-bar-item w3-button" onclick="showCase('case4')">Case 4</a>
+            <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case1')">Case 1</a>
+            <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case2')">Case 2</a>
+            <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case3')">Case 3</a>
+            <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case4')">Case 4</a>
           </div>
         </div>
         <br>
 
         <!--Content for case 1-->
-        <div id="case1" class="case-content">
-            <h2>Case 1</h2>
-            <p>This is the co-co-co-content for Case 1!</p>
-            <img src="/Visuals/distribution_plot.svg" alt="Case 1" width="600" height="400"/>
+        <div id="case1" class="case-content" style="display: block;">
+          <h2>Case 1: True Negative</h2>
+          <p>This shows us how many individuals are unlikely to 
+            have a heart attack. Below are the results were correctly predicted by the model. The model was able to predict 29 out of 35 negative, not likely to suffer from a heart attack prediction.</p>
+          <img src="../static/true_negative_case.png" width="600" height="400" />
         </div>
 
         <!--Content for case 2-->
         <div id="case2" class="case-content">
-            <h2>Case 2</h2>
-            <p>This is the content for Case 2.</p>
-            <img src="../Visuals/composite_plot.png" class="w3-round w3-image w3-opacity-min" alt="Case 2" style="width:100%">
+          <h2>Case 2: True Positive</h2>
+          <p>This shows us how many individuals are likely to 
+            have a heart attack. These results below show how many were correctly predicted by the model. The model was able to predict 36 out of 40 positive, likely to suffer from a heart attack prediction.</p>
+          <img src="../static/true_positive_case.png" alt="Case 2: True Positive" style="width:100%" />
         </div>
-    
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Remove this?" style="width:100%">
-    </div>
+
+            <!-- Content for case 3 -->
+        <div id="case3" class="case-content">
+         <h2>Case 3: False Negative</h2>
+         <p>This shows us how many individuals were flasely predicted by the model that they are not at risk of a heart attack. The model incorrectly predicts the negative case 4 times. This would mean an individual would be predicted as low risk of an hear attack but in reality they are high risk. </p>
+         <img src="../static/false_negative_case.png" alt="Case 3: False Negative" width="600" height="400" />
+        </div>
+
+        <!-- Content for case 4 -->
+      <div id="case4" class="case-content">
+        <h2>Case 4: False Positive</h2>
+        <p>This shows us how many individuals were flasely predicted by the model that they are at risk of a heart attack. The model incorrectly predicts the positive case 6 times. This would mean an individual would be predicted as high risk of an heart attack but in reality they are low risk.</p>
+        <img src="../static/false_positive_case.png" alt="Case 4: False Positive" style="width:100%" />
+      </div>
+=======
+<div class="w3-content" style="max-width:1100px">
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+    <img src="../static/composite_plot.png">  
   </div>
 
-  <hr>
-    <!-- About Section -->
-    <div class="w3-row w3-padding-64" id="about">
-        <div class="w3-col m6 w3-padding-large w3-hide-small">
-        <img class="w3-round w3-image w3-opacity-min" src="binary_countplot.svg" alt="Analytics_image"/>
-        </div>
-
-        <div class="w3-col m6 w3-padding-large">
-        <h1 class="w3-center">About our Heart Attack Model</h1><br>
-        <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
-        <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
-        <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
-        </div>
+    <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">About our Heart Attack Model</h1><br>
+    <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+    <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+    <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
     </div>
-    
-    <hr>
+</div>
+<hr>
+ <!-- Contact Section -->
+ <div class="w3-container w3-padding-64" id="contact">
+  <h1>Contributing Authors</h1><br>
+  <p>This projected was authored by:</p>
+  <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
+</div>
+<hr>
+<!-- About Section -->
+<div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img class="w3-round w3-image" src="../Distribution_plot.png" alt="Analytics_image" width="1600" height="800"/>
+  <img src="../static/composite_plot.png">  
+</div>
 
+  <div class="w3-col m6 w3-padding-large">
+  <h1 class="w3-center">About our Heart Attack Model</h1><br>
+  <h5 class="w3-center">Are you at risk of having a heart attack?</h5>
+  <p class="w3-large">This is a model that capable of forecasting an individual's susceptibility to<span class="w3-tag w3-light-grey">Heart Attacks.</span></p>
+  <p class="w3-large w3-text-grey w3-hide-medium">The ultimate objective of this model is to effectively discern individuals who are at heightened risk of heart attacks, delivering substantial value to both the individuals themselves and their families.</p>
+  </div>
+</div>
+
+  <!-- Model Section -->
+<div class="w3-row w3-padding-64" id="menu">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center">Model Predictions</h1><br>
+
+ <h4>How accurate is our model?</h4>
+    <p class="w3-text-grey">Choose a scenario to see the prediction based on our model</p>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-black">Choose a use case:</button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case1')">Case 1</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case2')">Case 2</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case3')">Case 3</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button" onclick="showCase('case4')">Case 4</a>
+      </div>
+    </div>
+    <br>
+
+    <!-- Content for case 1 -->
+    <div id="case1" class="case-content">
+      <h2>Case 1: True Negative</h2>
+      <p>This shows us how many individuals are unlikely to 
+        have a heart attack. Below are the results were correctly predicted by the model. The model was able to predict 29 out of 35 negative, not likely to suffer from a heart attack prediction.</p>
+      <img src="../static/true_negative_case.png" width="600" height="400" />
+    </div>
+
+    <!-- Content for case 2 -->
+    <div id="case2" class="case-content">
+      <h2>Case 2: True Positive</h2>
+      <p>This shows us how many individuals are likely to 
+        have a heart attack. These results below show how many were correctly predicted by the model. The model was able to predict 36 out of 40 positive, likely to suffer from a heart attack prediction.</p>
+      <img src="../static/true_positive_case.png" alt="Case 2: True Positive" style="width:100%" />
+    </div>
+
+    <!-- Content for case 3 -->
+    <div id="case3" class="case-content">
+      <h2>Case 3: False Negative</h2>
+      <p>This shows us how many individuals were flasely predicted by the model that they are not at risk of a heart attack. The model incorrectly predicts the negative case 4 times. This would mean an individual would be predicted as low risk of an hear attack but in reality they are high risk. </p>
+      <img src="../static/false_negative_case.png" alt="Case 3: False Negative" width="600" height="400" />
+    </div>
+
+    <!-- Content for case 4 -->
+    <div id="case4" class="case-content">
+      <h2>Case 4: False Positive</h2>
+      <p>This shows us how many individuals were flasely predicted by the model that they are at risk of a heart attack. The model incorrectly predicts the positive case 6 times. This would mean an individual would be predicted as high risk of an heart attack but in reality they are low risk.</p>
+      <img src="../static/false_positive_case.png" alt="Case 4: False Positive" style="width:100%" />
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
+    </div>
+
+<!--     
+    <div class="w3-col l6 w3-padding-large">
+      <div class="image-container">
+        <img class="w3-round w3-image" src="corr_matrix.png" alt="" width="1600" height="800" />
+      </div>
+      <div class="image-description">
+       <!-- Enter your text here -->
+        <p><!-- Enter your text here --></p>
+        <!-- You can replace the above line with your own text
+      </div>
+    </div> 
+  -->
+  </div> 
+  
+  
+  
+  <style>
+    .image-container {
+      position: relative;
+      width: 100%;
+      padding-top: 100%; /* Maintain aspect ratio */
+    }
+  
+    .image-description {
+      position: relative;
+      width: 100%;
+      padding: 10px; /* Adjust as needed */
+      text-align: center;
+    }
+  </style>
+
+<<<<<<< HEAD
+  <hr>
+=======
+  <div class="w3-col l6 w3-padding-large">
+    <div class="image-container">
+      <img class="w3-round w3-image" src="corr_matrix.png" alt="" width="1600" height="800" />
+    </div>
+    <div class="image-description">
+      <!-- Enter your text here -->
+      <p><!-- Enter your text here --></p>
+      <!-- You can replace the above line with your own text -->
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<style>
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Maintain aspect ratio */
+  }
+
+  .image-description {
+    position: relative;
+    width: 100%;
+    padding: 10px; /* Adjust as needed */
+    text-align: center;
+  }
+</style>
+    
+    
+
+>>>>>>> 5285002d5011bd8ee61c082c1f5ff1cf9d23459a
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
     <h1>Contributing Authors</h1><br>
     <p>This projected was authored by:</p>
-    <p class="w3-text-blue-grey w3-large"><b>Deepika Prichikala    -     Dhawanpreet Dhaliwal   -     Huma Alima  -    Leif Munroe - Ron Briggs</b></p>
+    <p class="w3-text-blue-grey w3-large"><b>Deepika Pitchikala    -     Dhawanpreet Dhaliwal   -     Huma Alam  -    Leif Munroe - Ron Briggs</b></p>
   </div>
   
+
 <!-- End page content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-center" style="background-color: #c794a1; padding: 32px;">
+  <p style="font-size: 20px; color: #333; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
+    <span style="font-size: 24px; color: #96094b;">Did you know?</span><br>
+    <span style="font-size: 18px; color: #0a0505;">Laughter is good for the heart!</span><br>
+    <span style="font-size: 18px; color: #0a0505;">It's like a mini-workout.</span><br>
+    <span style="font-size: 18px; color: #0a0505;">A good laugh can increase blood flow and improve vascular function.</span><br>
+    <span style="font-size: 18px; color: #0a0505;">So, keep smiling!😄</span>
+  </p>
 </footer>
 
 <script>
+    function setDefaultCase() {
+    showCase('case1');
+  }
     // Function to hide all content divs
     function hideAllCases() {
         var cases = document.querySelectorAll('.case-content');
@@ -130,10 +439,49 @@ h1, h2, h3, h4, h5, h6 {
 
     // Initially, hide all content divs
     window.onload = function() {
-        hideAllCases();
+      setDefaultCase();
     };
 </script>
 
+<script>
+  function openFeatureDescriptions() {
+      var featureDescriptions = document.getElementById('featureDescriptions');
+      if (featureDescriptions.style.display === 'none' || featureDescriptions.style.display === '') {
+          featureDescriptions.style.display = 'block';
+      } else {
+          featureDescriptions.style.display = 'none';
+      }
+  }
+</script>
+<script>
+  var slideIndex = 1;
 
+  function plusSlides(n) {
+      showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+      showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+  }
+  
+  // Initially, show the first slide
+  showSlides(slideIndex);
+</script>
 </body>
 </html>
