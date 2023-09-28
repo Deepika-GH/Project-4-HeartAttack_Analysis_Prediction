@@ -45,7 +45,7 @@ This multifaceted analysis encompasses intricate data preprocessing tasks such a
 [Kaggle: Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?resource=download&page=2)
 
 Dataset Description
-![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/png%20plots%20and%20images/Dataset%20Description.png?raw=true)
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Dataset%20Description.png?raw=true)
 
 ## Technologies and Libraries:
 - pandas, pathlib, matplotlib, numpy, flask, sqlite3, 
