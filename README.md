@@ -80,9 +80,12 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 
 The logistic regression is a statistical method used for analyzing a dataset in which there are one or more independent variables that determine an outcome. It is a type of regression analysis, but it is particularly well-suited for binary classification tasks,
 
-Data Splitting: You split the dataset into features (X) and the target variable (y). The features are stored in the X DataFrame, while the target variable is stored in the y Series.
+Data Splitting: split the dataset into features (X) and the target variable (y). The features are stored in the X DataFrame, while the target variable is stored in the y Series.
 
-Train-Test Split: You use scikit-learn's train_test_split function to split the data into training and testing sets. This helps in evaluating the model's performance. You set random_state=1 for reproducibility.
+Train-Test Split:Used scikit-learn's train_test_split function to split the data into training and testing sets. This helps in evaluating the model's performance. set random_state=1 for reproducibility.
+
+<img width="631" alt="image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130263833/51f7922a-f0b1-4d57-9569-8dcd5551225c">
+
 
 ## Classification report
 
