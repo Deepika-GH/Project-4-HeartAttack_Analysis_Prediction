@@ -83,7 +83,7 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 ### Leif Munroe
 
 ## SVC Linear Testing
-### Huma Alam
+Build a SVC Linear model and 
 
 ## Neural Network Model
 ### Deepika Pitchikala
