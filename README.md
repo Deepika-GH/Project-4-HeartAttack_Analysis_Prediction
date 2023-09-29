@@ -19,10 +19,10 @@
   - [Logistic Regression](#Logistic-Regression)
   - [Neural Network Model](#neural-network-model)
 - [Test Cases](#test-cases)
-  - [True Positive](#nTrue-Positive)
+  - [True Positive](#True-Positive)
   - [False Positive](#False-Positive)
   - [True Negative](#True-Negative)
-  - [True Negative](#True-Negative)
+  - [False Negative](#False-Negative)
 - [Results and Visualizations](#Results-and-Visualizations)
 - [Difficulties](#difficulties)
 - [Future Considerations](#Future-Considerations)
@@ -160,13 +160,16 @@ Confusion Matrix:
 ## Test Cases
 
 ### True Positive
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/true_positive_case.png?raw=true)
 
 ### False Positive
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/false_positive_case.png?raw=true)
 
 ### True Negative
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/true_negative_case.png?raw=true)
 
-###True Negative
-
+### False Negative
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/false_negative_case.png?raw=true)
     
 ## Results and Visualizations
 
