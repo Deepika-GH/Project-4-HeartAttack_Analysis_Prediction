@@ -121,6 +121,12 @@ I created a SVC model, with our trained X (features) and y (target):
 The model outputted 88% precision of predicting No Heart Disease and 86% for predicting Heart Disease. The f1-score has a combination of precision and recall which helps us see 0.85 score of predicting No Heart Disease and 0.88 for Heart Disease.  
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/fd464341-b235-489c-b9fd-cf29d09ce47f)
 
+Confusion Matrix:
+
+
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/5e91c35a-3b89-4583-ac67-471672483e91)
+
+
 
 ## Neural Network Model
 ### Deepika Pitchikala
