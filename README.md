@@ -159,7 +159,7 @@ Confusion Matrix:
 . Classification Report on the test dataset:
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/77449446/10405ec8-b022-4287-b5c3-3770dffa469b)
 
-## Test Cases - Confusion Matrix
+## Test Cases
 
 ### True Positive
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/true_positive_case.png?raw=true)
