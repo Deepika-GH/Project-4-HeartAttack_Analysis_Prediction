@@ -17,6 +17,7 @@
   - [SVC Linear Testing](#SVC-linear-testing)
   - [Random Forest Model](#random-forest-model)
   - [Logistic Regression](#Logistic-Regression)
+    - [Classification Report](#Classification-Report)
   - [Neural Network Model](#neural-network-model)
 - [Test Cases](#test-cases)
   - [True Positive](#True-Positive)
@@ -81,6 +82,7 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/PCA%20visuals/ClustersPCA.png?raw=true)
 
 ## Logical Regression
+### Dhawanpreet Dhaliwal
 
 The logistic regression is a statistical method used for analyzing a dataset in which there are one or more independent variables that determine an outcome. It is a type of regression analysis, but it is particularly well-suited for binary classification tasks,
 
@@ -91,7 +93,7 @@ Train-Test Split:Used scikit-learn's train_test_split function to split the data
 <img width="631" alt="image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130263833/51f7922a-f0b1-4d57-9569-8dcd5551225c">
 
 
-## Classification report
+## Classification Report
 
 
 <img width="338" alt="image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130263833/e660f4b9-f34f-4995-9743-1f6360c7cc72">
