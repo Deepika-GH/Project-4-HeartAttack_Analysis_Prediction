@@ -112,7 +112,15 @@ In summary, this model is doing a pretty good job in predicting heart disease, e
 ### Leif Munroe
 
 ## SVC Linear Testing
-Build a SVC Linear model and 
+### Huma Alam
+GOAL: Build a SVC Linear model and test its accuracy/ recall to see which machine learning model helps best predict the outcome of an individual suffering from a heart attack or likelihood of not suffering from an heart attack.
+I created a SVC model, with our trained X (features) and y (target):
+ 
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/9783c760-2979-49f1-b0d2-3aed42a35c66)
+
+The model outputted 88% precision of predicting No Heart Disease and 86% for predicting Heart Disease. The f1-score has a combination of precision and recall which helps us see 0.85 score of predicting No Heart Disease and 0.88 for Heart Disease.  
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/fd464341-b235-489c-b9fd-cf29d09ce47f)
+
 
 ## Neural Network Model
 ### Deepika Pitchikala
