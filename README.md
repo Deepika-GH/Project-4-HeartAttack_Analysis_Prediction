@@ -118,7 +118,7 @@ I created a SVC model, with our trained X (features) and y (target):
  
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/9783c760-2979-49f1-b0d2-3aed42a35c66)
 
-The model outputted 88% precision of predicting No Heart Disease and 86% for predicting Heart Disease. The f1-score has a combination of precision and recall which helps us see 0.85 score of predicting No Heart Disease and 0.88 for Heart Disease.  
+The model outputted 88% precision of predicting No Heart Disease and 86% for predicting Heart Disease. The f1-score has a combination of precision and recall which helps us see 0.85 score of predicting No Heart Disease and 0.88 for Heart Disease. With scoring the highest f-1 score, we have choosen this model to help trained our machine learning model.
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/fd464341-b235-489c-b9fd-cf29d09ce47f)
 
 Confusion Matrix:
