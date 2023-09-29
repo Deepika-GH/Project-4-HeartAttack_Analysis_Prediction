@@ -26,7 +26,7 @@
   - [False Negative](#False-Negative)
 - [Results and Visualizations](#Results-and-Visualizations)
 - [Future Considerations](#Future-Considerations)
-- [Conclusion](#conclusion)
+- [Conclusions](#conclusions)
 
 # Overview
 
@@ -111,8 +111,6 @@ In summary, this model is doing a pretty good job in predicting heart disease, e
 
 
 
-
-
 ## Random Forest Model
 ### Leif Munroe
 A Random Forest Model was chosen for its flexibility and tested for it's accuracy and F1 scores when predicting the likelyhood that an indivdual is at risk of experiencing a heart attack. After the data was split into testing and training set, it was scaled to provide a more optimized outcome. After this the model was fitted and the predictions made. 
@@ -130,6 +128,7 @@ I created a SVC model, with our trained X (features) and y (target):
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/9783c760-2979-49f1-b0d2-3aed42a35c66)
 
 The model outputted 88% precision of predicting No Heart Disease and 86% for predicting Heart Disease. The f1-score has a combination of precision and recall which helps us see 0.85 score of predicting No Heart Disease and 0.88 for Heart Disease. With scoring the highest f-1 score, we have choosen this model to help trained our machine learning model.
+
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130116747/fd464341-b235-489c-b9fd-cf29d09ce47f)
 
 Confusion Matrix:
@@ -205,7 +204,10 @@ Confusion Matrix:
 ## Future Considerations:
 In the future, it would be prudent to grade the predicting models using recall rather than accuracy. This would be necessary to reduce the error from false negatives. Although, using the F1 scores ultimately proved to be an effective way to choose the best predictive model.
 
-## Conclusion:
+## Conclusions:
+- PCA required 9 components to have a total explained variance of over 80% when there are 12 features in the model data
+- SVC Linear model scored the highest of all models in terms of F1 score and accuracy
+- True Positives have the highest prediction rate while False Negatives have the lowest prediction rate
 
 
 
