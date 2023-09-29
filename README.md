@@ -115,6 +115,12 @@ In summary, this model is doing a pretty good job in predicting heart disease, e
 
 ## Random Forest Model
 ### Leif Munroe
+A Random Forest Model was chosen for its flexibility and tested for it's accuracy and F1 scores when predicting the likelyhood that an indivdual is at risk of experiencing a heart attack. After the data was split into testing and training set, it was scaled to provide a more optimized outcome. After this the model was fitted and the predictions made. 
+
+The following image of the classification report and confusion matrix show the analysis of the prediciton results. The overall accuracy is 80%, but the f1 scores of 78% for the not-at-risk group and 82% for the at-risk group show the result discrepancy that leads to lower model performance. Additionally, with support numbers of 39 (0-not at risk) and 37 (1-at risk) we can see that the data is fairly well balanced. 
+
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/126816323/792a9bf5-6553-4251-a328-c2367a429f1e)
+
 
 ## SVC Linear Testing
 ### Huma Alam
