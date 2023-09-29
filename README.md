@@ -115,7 +115,7 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 ## Results and Visualizations
 
 ## Future Considerations:
-In the future, it would be prudent to grade the predicting models using recall rather than accuracy. This would be necessary to reduce the error from false negatives.
+In the future, it would be prudent to grade the predicting models using recall rather than accuracy. This would be necessary to reduce the error from false negatives. Although, using the F1 scores ultimately proved to be an effective way to choose the best predictive model.
 
 ## Conclusion:
 
