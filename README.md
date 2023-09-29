@@ -193,6 +193,8 @@ Confusion Matrix:
     
 ## Results and Visualizations
 
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/ModelsTested.png?raw=true)
+
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/ModelAccuracyComparison.png?raw=true)
 
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/Distribution_plot.png?raw=true)
