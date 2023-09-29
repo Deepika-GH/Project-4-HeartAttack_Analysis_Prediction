@@ -77,7 +77,33 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/Visuals/PCA%20visuals/ClustersPCA.png?raw=true)
 
 ## Logical Regression
-### Dhawanpreet Dhaliwal
+
+The logistic regression is a statistical method used for analyzing a dataset in which there are one or more independent variables that determine an outcome. It is a type of regression analysis, but it is particularly well-suited for binary classification tasks,
+
+Data Splitting: You split the dataset into features (X) and the target variable (y). The features are stored in the X DataFrame, while the target variable is stored in the y Series.
+
+Train-Test Split: You use scikit-learn's train_test_split function to split the data into training and testing sets. This helps in evaluating the model's performance. You set random_state=1 for reproducibility.
+
+## Classification report
+
+
+<img width="338" alt="image" src="https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/130263833/e660f4b9-f34f-4995-9743-1f6360c7cc72">
+
+
+Accuracy:  This mode got 86% of them right. This means the model is doing a pretty good job overall in identifying whether someone has heart disease or not.
+
+
+Precision: This is like how careful we are when predicting someone has heart disease. It tells us that out of all the predictions we made for "no heart disease," 88% of them were really cases of "no heart disease." So, This model is quite accurate when it predicts no heart disease.
+
+
+F1-Score: It's like a balance between precision and recall. The F1-Score is 84, which is a good balance. This means we're doing a decent job at both being accurate when predicting no heart disease and not missing too many cases of heart disease.
+
+
+In summary, this model is doing a pretty good job in predicting heart disease, especially for cases where there is no heart disease. We're capturing most of the actual cases, but there's room for improvement to ensure we don't miss any. 
+
+
+
+
 
 ## Random Forest Model
 ### Leif Munroe
