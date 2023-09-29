@@ -180,6 +180,14 @@ Confusion Matrix:
     
 ## Results and Visualizations
 
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/Distribution_plot.png?raw=true)
+
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/binary_countplot.png?raw=true)
+
+![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/blob/main/static/corr_matrix.png?raw=true)
+
+![image](
+
 ## Future Considerations:
 In the future, it would be prudent to grade the predicting models using recall rather than accuracy. This would be necessary to reduce the error from false negatives. Although, using the F1 scores ultimately proved to be an effective way to choose the best predictive model.
 
