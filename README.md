@@ -143,25 +143,39 @@ Confusion Matrix:
 ### Deepika Pitchikala
 - Model Overview
 . Built a neural network model for binary classification (predicting whether a patient is prone to getting a heart attck or no). The model architecture is as follows:
+  
 . Input Layer: The input layer has 13 neurons, representing the 13 input features.
+
 . Hidden Layers: The number of hidden layers and neurons in each hidden layer is determined using hyperparameter tuning. We allow the Keras Tuner to decide the activation function and the number of neurons in each hidden layer.
+
 . Output Layer: The output layer consists of a single neuron with a sigmoid activation function, which produces the probability of having heart disease.
+
 . Loss Function: We used binary cross-entropy as the loss function, suitable for binary classification tasks.
+
 . Optimizer: We used the Adam optimizer to train the model.
   
 - Hyperparameter Tuning
-. We employed the Keras Tuner library to optimize hyperparameters for our model. The following hyperparameters were tuned:
+  
+ We employed the Keras Tuner library to optimize hyperparameters for our model. The following hyperparameters were tuned:
+
 . Activation function for hidden layers (choices: relu, tanh, sigmoid)
+
 . Number of neurons in the first layer (range: 1 to 64, step: 2)
+
 . Number of hidden layers (range: 1 to 6)
+
 . Number of neurons in each hidden layer (range: 1 to 64, step: 2)
 
 - Best Hyperparameters: The best hyperparameters were determined using random search.
 
 - Model Performance:
+  
 . Accuracy on the test dataset: [0.6184]
+
 . Loss on the test dataset: [0.6856]
+
 . Classification Report on the test dataset:
+
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/77449446/10405ec8-b022-4287-b5c3-3770dffa469b)
 
 ## Test Cases
