@@ -110,12 +110,12 @@ PCA is a dimensionality reduction technique used to transform high-dimensional d
 . Classification Report on the test dataset:
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/77449446/10405ec8-b022-4287-b5c3-3770dffa469b)
 
-  
 ## Test Case
 
 ## Results and Visualizations
 
 ## Future Considerations:
+In the future, it would be prudent to grade the predicting models using recall rather than accuracy. This would be necessary to reduce the error from false negatives.
 
 ## Conclusion:
 
