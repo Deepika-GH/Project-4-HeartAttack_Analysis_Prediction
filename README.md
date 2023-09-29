@@ -206,7 +206,7 @@ In the future, it would be prudent to grade the predicting models using recall r
 
 ## Conclusions:
 - PCA required 9 components to have a total explained variance of over 80% when there are 12 features in the model data
-- SVC Linear model scored the highest of all models in terms of F1 score and accuracy
+- SVC Linear testing scored the highest of all models in terms of F1 score and accuracy
 - True Positives have the highest prediction rate while False Negatives have the lowest prediction rate
 
 
