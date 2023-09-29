@@ -18,7 +18,11 @@
   - [Random Forest Model](#random-forest-model)
   - [Logistic Regression](#Logistic-Regression)
   - [Neural Network Model](#neural-network-model)
-- [Test Case](#test-case)
+- [Test Cases](#test-cases)
+  - [True Positive](#nTrue-Positive)
+  - [False Positive](#False-Positive)
+  - [True Negative](#True-Negative)
+  - [True Negative](#True-Negative)
 - [Results and Visualizations](#Results-and-Visualizations)
 - [Difficulties](#difficulties)
 - [Future Considerations](#Future-Considerations)
@@ -153,8 +157,17 @@ Confusion Matrix:
 . Classification Report on the test dataset:
 ![image](https://github.com/Deepika-GH/Project-4-HeartAttack_Analysis_Prediction/assets/77449446/10405ec8-b022-4287-b5c3-3770dffa469b)
 
-## Test Case
+## Test Cases
 
+### True Positive
+
+### False Positive
+
+### True Negative
+
+###True Negative
+
+    
 ## Results and Visualizations
 
 ## Future Considerations:
