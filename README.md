@@ -25,7 +25,6 @@
   - [True Negative](#True-Negative)
   - [False Negative](#False-Negative)
 - [Results and Visualizations](#Results-and-Visualizations)
-- [Difficulties](#difficulties)
 - [Future Considerations](#Future-Considerations)
 - [Conclusion](#conclusion)
 
